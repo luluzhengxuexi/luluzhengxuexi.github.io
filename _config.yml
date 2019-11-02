@@ -1,13 +1,10 @@
 # Site
 title:              阿璐在努力敲代码
-subTitle:           x
 bio:                '不知道干啥'
-description:        "不知道干啥"      #为网页定义描述内容
-locale:             en_US 
-keywords:           Liulu Blog Java   #为搜索引擎定义关键词
-author:             Liulu          #定义网页作者
+description:        "不知道干啥"
+locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "lululiu.fun" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
@@ -16,8 +13,8 @@ disqus_shortname:   default
 analytics-id:       "default"
 twitter:            default
 facebook:           default
-instagram:          leahluuu
-github:             luluzhengxuexi
+instagram:          default
+github:             default
 
 # personal
 location:           Chengdu, Sichuan, CHINA
