@@ -1,8 +1,14 @@
+<!-- 无序列表
+<ul>
+	<li> xx</li>
+	<li> xx</li>
+-->
 <ul class="links">
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
-  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
-  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li>
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Introduction</a></li>
+  <li class="{% if page.url contains '/owner/' %} active {% endif %}"><a href="{{ "/owner/" | absolute_url }}">Owner</a></li>
+  <li class="{% if page.url contains '/study&works/' %} active {% endif %}"><a href="{{ "/study&works/" | absolute_url }}">Study & Works</a></li>
+  <li class="{% if page.url contains '/draw/' %} active {% endif %}"><a href="{{ "/draw/" | absolute_url }}">Draw</a></li>
+  <li class="{% if page.url contains '/other/' %} active {% endif %}"><a href="{{ "/other/" | absolute_url }}">Other</a></li>
 </ul>
 
 <ul class="icons">
