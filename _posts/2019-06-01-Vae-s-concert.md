@@ -2,7 +2,7 @@
 layout: post
 title:  "Vae's concert"
 date:   2019-06-01
-excerpt: "Vae concert ,ChengDu."
+excerpt: "[life]Vae concert ,ChengDu."
 image: "/images/vae-concert.jpg"
 ---
 
