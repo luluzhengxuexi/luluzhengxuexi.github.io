@@ -43,10 +43,36 @@
 			margin: 0;
 			width: 100%;
 
-
 			img {
 				width: 100%;
 			}
+		}
+
+
+		&.draw {
+			height: auto;
+			width: calc(50% - #{_size(padding) * 0.5});
+			max-width: _size(wrapper);
+			margin: 0 auto;
+			position: relative;
+			z-index: 3;
+
+
+			img {
+					border-radius: _size(border-radius);
+					width: 90%;
+					height: auto;
+					display: block;
+					margin: 0 auto;
+			}
+
+			p {
+			 		text-align:  center;
+			}
+
+			a:hover img {border: 1px solid #0000ff;}
+
+
 		}
 
 
