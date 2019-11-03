@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <!--
-	用于draw页面
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
@@ -21,63 +24,94 @@
   		       		 {% include nav.html %}
 				</nav>
 
-
+				<!-- Main -->
 				<div id="main">
+						<!--
+				          <article class="post featured">
+				            <header class="major">
+				              <h2><a href="#">Importance of Blogs</a></h2>
+				              <p>Nonsense, boring, interesting life log and learning life records.
+											</p>
+				            </header>
+
+								<p> ... </p>
+				               </article> -->
 		           <p class="align-center"> A programmer who wants to be a painter.<br/>
 		           		<font style="font-family:Microsoft YaHei">一名想成为画家的程序员。	</font>	
 					</p>
-
-					<div class="show">
-						 <div class="img">
-								 <a target="_blank" href="//static.runoob.com/images/demo/demo4.jpg">
-									<img class="show" src="{{ "/images/hua2.png" | absolute_url }}" />  
-								</a> 
-						<div class="desc">这里添加图片文本描述</div>
+					<div>
+							<div class="image draw">
+							<img  src="{{ "/images/hua00.png" | absolute_url }}" alt=""  /><br/>
+								<p> Snow (2019/10/23) </p>
+						    </div>
+							<div class="image draw">
+							<img  src="{{ "/images/hua01.png" | absolute_url }}" alt=""  />
+								<p> Desert (2019/10/22)</p>
+						    </div>
 					</div>
-				</div>
-					<div class="show">
-						 <div class="img">
-								 <a target="_blank" href="//static.runoob.com/images/demo/demo4.jpg">
-									<img class="show" src="{{ "/images/hua03.png" | absolute_url }}" />  
-								</a> 
-						<div class="desc">这里添加图片文本描述</div>
+					<div>
+					    	<div class="image draw">
+							<img  src="{{ "/images/hua04.png" | absolute_url }}" alt=""  />
+								<p>Doraemon (2019/07/05) <br/>Today,I'm not happy </p>
+						   </div>
+							<div class="image draw">
+							<img  src="{{ "/images/hua05.png" | absolute_url }}" alt=""  />
+									<p>Doraemon (2019/07/04) <br/>Today,I'm very happy </p>
+						    </div>
 					</div>
-				</div>
+					<div>
+					    	<div class="image draw">
+							<img  src="{{ "/images/hua03.png" | absolute_url }}" alt=""  />
+								<p>Psyduck (2019/07/02) </p>
+						   </div>
+							<div class="image draw">
+							<img  src="{{ "/images/hua07.png" | absolute_url }}" alt=""  />
+									<p>Chi-bi Maruko (2019/07/01) </p>
+						    </div>
+					 </div>
+						<!--
+						<img class="image draw" src="{{ "/images/hua2.png" | absolute_url }}" alt="" />
+							name:desert <br/> 
+							time : 1025 <br/>
+						</p><HR></HR>
+					</div>
+						<div>
+						<p>
+						<img class="image draw" src="{{ "/images/pic02.png" | absolute_url }}" alt="" />
+							name:desert <br/> 
+							time : 1025 <br/>
+						</p><HR>
+					</div>
 
-
-					<img class="show" src="{{ "/images/hua03.png" | absolute_url }}" />
-					<img class="show" src="{{ "/images/hua04.png" | absolute_url }}" />
-<!--				
-				<div id="forshow">
+				-->
+					<!-- Post 
 					<section class="posts">
 						{% for post in site.posts %}
 							<article>
-								<header>	
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-									<span class="date">{{ post.date | date_to_string }}</span>
+								<header>
+									 <span class="date">{{ post.date | date_to_string }}</span> 
+									 <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
 								</header>
 								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
-								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Return top</a></li>
-								</ul>
+
 							</article>
 						{% endfor %}
 					</section>
-				</div>
-				</div>
--->					<!-- Footer -->
+-->
+
+					<!-- Footer -->
 					<footer>
            			  	 <ul class="actions">
-								<li><a href="{{ "/draw/" | absolute_url }}" class="button">Return top</a></li>
+								<li><a href="{{ "/study&works/" | absolute_url }}" class="button">Return top</a></li>
              			  </ul>
 					</footer>
+				</div>
 
-				
+				<!-- Footer -->
+      		    {% include foot.html %}
 			</div>
-<!-- Footer -->
-       			 {% include foot.html %}
-       		</div> 
+
 			<!-- Scripts -->
 			{% include scripts-main.html %}
 			{% include tracking.html %}
