@@ -75,8 +75,8 @@
 
 		> .posts {
 			@include flexgrid((
-				columns:			2,
-				gutters:			(_size(padding) * 4),
+				columns:			3,
+				gutters:			(_size(padding) * 2),
 				horizontal-align:	center,
 				vertical-align:		flex-start,
 				flush:				false
@@ -86,28 +86,18 @@
 
 			> article {
 				border-color: _palette(border);
-				border-left-width: 2px;
+
+				border-right-width: 2px;
+				border-bottom-width :3px;
 				border-style: solid;
-				border-top-width: 2px;
 				text-align: center;
 
-				> :last-child {
-					margin-bottom: 0;
-				}
-
-				&:nth-child(2n - 1) {
-					border-left-width: 0;
-				}
-
-				&:nth-child(-n + 2) {
-					border-top-width: 0;
-				}
 			}
 
 			@include breakpoint(medium) {
 				@include flexgrid-resize((
 					columns:			2,
-					gutters:			(_size(padding) * 2.5),
+					gutters:			(_size(padding) * 2),
 					flush:				false
 				));
 			}
@@ -115,27 +105,12 @@
 			@include breakpoint(small) {
 				@include flexgrid-resize((
 					columns:			1,
-					gutters:			(_size(padding) * 2),
+					gutters:			(_size(padding) * 1.5),
 					prev-columns:		2,
 					flush:				false
 				));
 
 				> article {
-					&:nth-child(2n - 1) {
-						border-left-width: 2px;
-					}
-
-					&:nth-child(-n + 2) {
-						border-top-width: 2px;
-					}
-
-					&:nth-child(n) {
-						border-left-width: 0;
-					}
-
-					&:nth-child(-n + 1) {
-						border-top-width: 0;
-					}
 
 					.image {
 						max-width: 25rem;
