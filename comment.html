@@ -13,20 +13,20 @@ sitemap:
 </header>
 
 
-<div id="container"></div>
+<div id="gitment"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: 'https://lululiu.fun/comment/', // 可选。默认为 location.href
+  id: 'window.location.href', // 可选。默认为 location.href
   owner: 'luluzhengxuexi',
-  repo: 'gitment',
+  repo: 'lululiu.fun',
   oauth: {
     client_id: '1ca37f845243c9677026',
     client_secret: '5ed654db5f8ceaf592b55bbccc894c1e3a3f9349',
   },
 })
-gitment.render('container')
+gitment.render('gitment')
 </script>
 
 
