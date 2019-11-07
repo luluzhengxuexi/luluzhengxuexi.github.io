@@ -12,6 +12,24 @@ sitemap:
 	T-T</h1>
 </header>
 
+
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'lulu', // 可选。默认为 location.href
+  owner: 'luluzhengxuexi',
+  repo: 'gitment',
+  oauth: {
+    client_id: '1ca37f845243c9677026',
+    client_secret: '5ed654db5f8ceaf592b55bbccc894c1e3a3f9349',
+  },
+})
+gitment.render('container')
+</script>
+
+
 <!-- Text stuff -->
 	<h2>Text</h2>
 	<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
