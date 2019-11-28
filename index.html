@@ -81,7 +81,19 @@ sitemap:
 									}
 									</script>
 									<button type="button" onclick="myFunction()">加油加油~</button>
-							
+
+							<div id="time" ></div>
+									<script> 
+									function printTime(){
+									  var d = new Date();
+									  var h= d.getHours();
+									  var m= d.getMinutes();
+									  var s= d.getSeconds();
+									  document.getElementById("time").innerHTML= h+":"+m+":"+s;
+									  
+									}
+									var t = setInterval(printTime,1000);
+									</script>
 							</article>
 
 						<!-- Posts 
