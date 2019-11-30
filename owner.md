@@ -21,7 +21,7 @@ I'm currently a master student in University of Electronic Science and Technolog
 
 
 <b style="color: #8470FF">Working Lab</b><br/>
-<i>Network Intelligence and Security Laboratory (<a href="http://nise.uestc.edu.cn/" style="color: DodgerBlue">NISE</a>) </i>
+<i>Network Intelligence and Security Laboratory (<a href="http://nise.uestc.edu.cn/" target="_blank" style="color: DodgerBlue">NISE</a>) </i>
 <br /> 
 It's headed by Prof. Li Lu, and affiliated with the School of Computer Science and Engineering (SCSE), University of Electronic Science and Technology of China (UESTC).
 <br />
