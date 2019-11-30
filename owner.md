@@ -50,4 +50,4 @@ National Undergraduate Electronics Design Contest, Second prize (nationally), 20
 
 
 
-<p style="text-align:center"> <b>Last update</b> : <i>29/10/2019 </i></p>
+<p style="text-align:center"> <b>Last update</b> : <i>30/11/2019 </i></p>
